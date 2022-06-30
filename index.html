@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project Tracker</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <script
       type="text/javascript"
@@ -17,6 +17,53 @@
     ></script>
 </head>
 <body>
+
+  <header>
+    <div class="jumbotron jumbotron-fluid bg-info">
+      <div class="container">
+        <h1 class="display-4 text-white">Project Tracker</h1>
+        <p class="lead">todays time</p>
+      </div>
+    </div>
+  </header>
+
+  <section id="form">
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1" >Project Name</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Project Name"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Project Type</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option selected>Project Type</option>
+          <option>Web Application (back end)</option>
+          <option>Web Applicaton (front end)</option>
+          <option>Web Application (full-stack)</option>
+          <option>Mobile Application</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Hourly Wage</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="$10.00"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Datepicker</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+      </div>
+    </form>
+
+  </section>
+
+  <section id="table">
+    
+
+  </section>
+
+
+
+
+
     
     <script src="./assets/js/script.js"></script>
 </body>
